@@ -255,6 +255,7 @@ About
     align-self: center;
   }
 }
+
 .about-photo {
   max-width: 40vw;
 }
@@ -528,3 +529,53 @@ Gallery
 Footer
 ===============
 */
+
+.footer {
+  background-color: var(--clr-primary-2);
+  text-align: center;
+  padding: 2rem;
+}
+.footer-links,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.footer-link {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+}
+.footer-link:hover {
+  color: var(--clr-primary-1);
+  background-color: var(--clr-white);
+  padding: 3px;
+  border-radius: 5px;
+}
+.footer-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--clr-white);
+  transition: var(--transition);
+}
+.footer-icon:hover {
+  color: var(--clr-primary-1);
+  background-color: var(--clr-white);
+  border-radius: 10px;
+  padding: 2px;
+}
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--clr-white);
+}
+
+.mailto {
+  font-size: 2rem;
+  color: var(--clr-white);
+  font-weight: 700;
+}
