@@ -296,6 +296,34 @@ Navbar
 Hero
 ===============
 */
+.suits {
+  margin-top: 1rem;
+  border-top: 2px solid var(--clr-primary-1);
+  padding: 2rem;
+  display: none;
+}
+/* hide text */
+
+.visible .suits {
+  display: block;
+}
+.minus-icon {
+  display: none;
+}
+.visible .minus-icon {
+  display: inline;
+}
+.visible .plus-icon {
+  display: block;
+}
+.visible {
+  display: block;
+}
+/*
+=============== 
+Hero
+===============
+*/
 .hero {
   min-height: 100vh;
   background-color: var(--clr-primary-1);

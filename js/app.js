@@ -13,6 +13,15 @@ navBtn.addEventListener("click", () => {
   links.classList.toggle("show-links");
 });
 
+// btn select
+const btnSelect = document.querySelector(".btn-select");
+const suitsSelect = document.querySelector(".suits");
+btnSelect.addEventListener("click", function () {
+  suitsSelect.classList.toggle("visible");
+  // console.log(btnSelect);
+  // console.log(suitsSelect);
+});
+
 // ********** smooth scroll ************
 // select links
 const scrollLinks = document.querySelectorAll(".scroll-link");
