@@ -302,6 +302,11 @@ Hero
   padding: 0.572rem;
   display: none;
 }
+@media screen and (min-width: 992px) {
+  .suits {
+    max-width: 60vw;
+  }
+}
 /* hide text */
 
 .visible .suits {
