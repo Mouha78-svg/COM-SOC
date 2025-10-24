@@ -297,9 +297,9 @@ Hero
 ===============
 */
 .suits {
-  margin-top: 1rem;
+  margin-top: 0.21rem;
   border-top: 2px solid var(--clr-primary-1);
-  padding: 2rem;
+  padding: 0.572rem;
   display: none;
 }
 /* hide text */
